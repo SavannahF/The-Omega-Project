@@ -2,9 +2,9 @@
 
 ## Description
 
-The purpose of this project is to create a Pet Search User Interface, whereby a user can search for breeds and availabilty for adoption based on location. 
+The purpose of this project is to create a Pet Search User Interface, whereby a user can search for breeds and availabilty for adoption based on location.
 
-This app uses the PetFinder API and local storage for the User to search and save their pet choices. 
+This app uses the PetFinder API and local storage for the User to search and save their pet choices.
 
 <!-- Published URL -->
 
@@ -12,12 +12,12 @@ https://SavannahF.github.io/The_Omega_Project/
 
 Screen Shots can be found below:
 
-<!-- INSERT FINAL SCREENSHOTS HERE -->
+<!-- INSERT FINAL SCREENSHOTS HERE
 
 ![IMAGE_01](./assets/FILE_NAME1.ext)
 ![IMAGE_02](./assets/FILE_NAME2.ext)
 ![IMAGE_03](./assets/FILE_NAME3.ext)
-![IMAGE_04](./assets/FILE_NAME4.ext)
+![IMAGE_04](./assets/FILE_NAME4.ext) -->
 
 ## Installation
 
@@ -37,6 +37,15 @@ Visit the github-hosted webpage for the user experience.
 
 - Github: https://github.com/SavannahF/The_Omega_Project/
 - Deployed: https://SavannahF.github.io/The_Omega_Project/
+
+## Collaborators
+
+This project was a group effort by:
+
+- Savannah Fortson | Slack name: Savannah Fortson | Github : SavannahF
+- Nadia Dorado | Slack name: Nadia Dorado | Github : ndorado3
+- Paulo de Sa | Slack name: Paulo de Sa | Github : paulodesa
+- Andrew Patison | Slack Name: Andrew Patison | Github: acpatison
 
 ## License
 
