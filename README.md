@@ -42,10 +42,10 @@ Visit the github-hosted webpage for the user experience.
 
 This project was a group effort by:
 
-- Savannah Fortson | Slack name: Savannah Fortson | Github : SavannahF
-- Nadia Dorado | Slack name: Nadia Dorado | Github : ndorado3
-- Paulo de Sa | Slack name: Paulo de Sa | Github : paulodesa
-- Andrew Patison | Slack Name: Andrew Patison | Github: acpatison
+- Savannah Fortson | Github : SavannahF
+- Nadia Dorado | Github : ndorado3
+- Paulo de Sa | Github : paulodesa
+- Andrew Patison | Github: acpatison
 
 ## License
 
