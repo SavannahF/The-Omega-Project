@@ -2,7 +2,7 @@
 
 ## Description
 
-The purpose of this project is to create a Pet Search User Interface, whereby a user can search for breeds and availabilty for adoption based on location.
+The purpose of this project is to create a Pet Search User Interface, whereby a user can search for breeds and availability for adoption based on location.
 
 This app uses the PetFinder API and local storage for the User to search and save their pet choices.
 
