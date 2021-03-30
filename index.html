@@ -30,17 +30,18 @@
   </nav>
   <!--  -->
 
-  <div class="flex-container-fluid profile" id="profile">
+  <form class="flex-container-fluid profile" id="profile">
     <h1 class="profile-title" id="profile-title">PawMe Profile</h1>
+    <!-- DIV holds the offset fields -->
     <div class="row d-grid gap-3">
         <!-- Parent Name Input -->
         <div class="input-group flex-nowrap" id="parentName">
-          <input type="text" class="form-control parentName" placeholder="Parent Name" aria-label="ParentName"
+          <input type="text" id = "userName" class="form-control parentName" placeholder="Parent Name" 
             aria-describedby="addon-wrapping">
         </div>
         <!-- ZipCode Input -->
         <div class="input-group flex-nowrap" id="zipCode">
-          <input type="text" class="form-control zipCode" placeholder="ZipCode" aria-label="ZipCode"
+          <input type="text" id = "zipInput"class="form-control zipCode" placeholder="ZipCode" aria-label="ZipCode"
             aria-describedby="addon-wrapping">
         </div>
         <!-- Breed Dropdown -->
@@ -70,7 +71,7 @@
         <button class="submitBtn" id="submitBtn">Submit</button>
       </div>
     </div>
-  </div>
+  </form>
 
 
 
@@ -78,6 +79,7 @@
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
   <script src="./assets/script.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 </body>
 
 </html>

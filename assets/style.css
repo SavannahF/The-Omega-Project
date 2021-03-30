@@ -1,36 +1,46 @@
 .home {
-    justify-content: right;
-    align-self: flex-end;
+  justify-content: right;
+  align-self: flex-end;
 }
 
 .profile {
-    margin: auto;
-    margin-top: 200px;
-    width: 50%;
-    border: 3px solid black;
-    padding: 10px;
+  margin: auto;
+  margin-top: 200px;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
 }
-h1 , .dropdown-item{
-    text-align: center;
+h1,
+.dropdown-item {
+  text-align: center;
 }
 .row {
-    padding-left: 337px !important;
-    padding-right: 337px !important;
+  padding-left: 337px !important;
+  padding-right: 337px !important;
 }
-.parentName , .zipCode , #btn1 , #btn2 , .submit {
-    min-width: 100%;
-    max-width: 100%;
-    align-content: center;
-    text-align: center;
+.parentName,
+.zipCode,
+#btn1,
+#btn2,
+.submit {
+  min-width: 100%;
+  max-width: 100%;
+  align-content: center;
+  text-align: center;
 }
 .dropdown-menu {
-    border: 1px solid black;
-    width: 368px;
+  border: 1px solid black;
+  width: 368px;
 }
 .submitBtn {
-    width: auto;
-    border: 3px solid black;
-    background-color: skyblue;
+  width: auto;
+  border: 3px solid black;
+  background-color: skyblue;
+}
+
+.card {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* @media only screen (max-width: 600px) {
