@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-
-=======
 var userNameEl = document.querySelector("#userName");
 var zipCodeEl = document.querySelector("#zipInput");
 var dogBreedEl = document.querySelector("#breedList");
@@ -20,4 +16,3 @@ submitBtn.addEventListener("click", function (e) {
     console.log(zipCode);
   }
 });
->>>>>>> 4a89635993c9a23b7996776e4b62b535b7c27679
