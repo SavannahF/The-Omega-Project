@@ -64,36 +64,7 @@
             <li class="dropdown-item"><a href="#">Female</a></li>
           </ul>
         </div>
-      <!-- Parent Name Input -->
-      <div class="input-group flex-nowrap" id="parentName">
-        <input id="userName" type="text" class="form-control parentName" placeholder="Parent Name"
-          aria-describedby="addon-wrapping">
-      </div>
-      <!-- ZipCode Input -->
-      <div class="input-group flex-nowrap" id="zipCode">
-        <input id="zipInput" type="text" class="form-control zipCode" placeholder="ZipCode" aria-label="ZipCode"
-          aria-describedby="addon-wrapping">
-      </div>
-      <!-- Breed Dropdown -->
-      <div class="breed">
-        <button class="btn1 dropdown-toggle" type="button" id="btn1" data-bs-toggle="dropdown"
-          aria-expanded="true">Breed of Dog</button>
-        <ul class="dropdown-menu btn1Menu" id="breedList" aria-labelledby="dropdownMenuButton1">
-          <!-- API Call -->
-          <li class="dropdown-item"><a href="#" data="">API Call</a></li>
-        </ul>
-      </div>
-      <!-- Gender Dropdown -->
-      <div class="gender">
-        <button class="btn2 dropdown-toggle" type="button" id="btn2" data-bs-toggle="dropdown" aria-expanded="true">
-          Gender
-        </button>
-        <ul class="dropdown-menu btn2Menu" id="genderList" aria-labelledby="dropdownMenuButton1">
-          <li class="dropdown-item"><a href="#">Male</a></li>
-          <li class="dropdown-item"><a href="#">Female</a></li>
-          <li class="dropdown-item"><a href="#">Any</a></li>
-        </ul>
-      </div>
+     
       <!-- Submit Button -->
       <div class="submit" id="submit">
         <!-- Will need JS function on click -->
@@ -102,11 +73,37 @@
     </div>
 </form>
 
+
+<!-- Results container  -->
+<div class="results-container" id="results-container">
+  <div class="col-12 col-md-8">
+    <h2 class="card">
+      PawMe Matches
+      <span id="user-matches"></span>
+    </h2>
+    <div id="results" class="list-group"></div>
+    <div class="card" style="width: 18rem">
+      <img
+        
+        class="card-img-top"
+        alt="image coming soon"
+      />
+      <div class="card-body">
+        <h2 id = "dogName">Name: </h2>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
   <script src="./assets/script.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 </body>
-
+<!-- src="./assets/PLACEHOLDER_IMAGE.jpeg" -->
 </html>
