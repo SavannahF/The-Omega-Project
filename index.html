@@ -34,37 +34,36 @@
     <h1 class="profile-title" id="profile-title">PawMe Profile</h1>
     <!-- DIV holds the offset fields -->
     <div class="row d-grid gap-3">
-        <!-- Parent Name Input -->
-        <div class="input-group flex-nowrap" id="parentName">
-          <input type="text" class="form-control parentName" placeholder="Parent Name" aria-label="ParentName"
-            aria-describedby="addon-wrapping">
-        </div>
-        <!-- ZipCode Input -->
-        <div class="input-group flex-nowrap" id="zipCode">
-          <input type="text" class="form-control zipCode" placeholder="ZipCode" aria-label="ZipCode"
-            aria-describedby="addon-wrapping">
-        </div>
-        <!-- Breed Dropdown -->
-        <div class="breed">
-          <button class="btn1 dropdown-toggle" type="button" id="btn1" data-bs-toggle="dropdown"
-            aria-expanded="true">Breed of Dog</button>
-          <ul class="dropdown-menu btn1Menu" id="breedList" aria-labelledby="dropdownMenuButton1">
-            <!-- API Call -->
-            <li class="dropdown-item"><a href="#" data="">API Call</a></li>
-          </ul>
-        </div>
-        <!-- Gender Dropdown -->
-        <div class="gender">
-          <button class="btn2 dropdown-toggle" type="button" id="btn2" data-bs-toggle="dropdown"
-            aria-expanded="true">
-            Gender
-          </button>
-          <ul class="dropdown-menu btn2Menu" id="genderList" aria-labelledby="dropdownMenuButton1">
-            <li class="dropdown-item"><a  href="#">Male</a></li>
-            <li class="dropdown-item"><a href="#">Female</a></li>
-            <li class="dropdown-item"><a href="#">Any</a></li>
-          </ul>
-        </div>
+      <!-- Parent Name Input -->
+      <div class="input-group flex-nowrap" id="parentName">
+        <input id="userName" type="text" class="form-control parentName" placeholder="Parent Name"
+          aria-describedby="addon-wrapping">
+      </div>
+      <!-- ZipCode Input -->
+      <div class="input-group flex-nowrap" id="zipCode">
+        <input id="zipInput" type="text" class="form-control zipCode" placeholder="ZipCode" aria-label="ZipCode"
+          aria-describedby="addon-wrapping">
+      </div>
+      <!-- Breed Dropdown -->
+      <div class="breed">
+        <button class="btn1 dropdown-toggle" type="button" id="btn1" data-bs-toggle="dropdown"
+          aria-expanded="true">Breed of Dog</button>
+        <ul class="dropdown-menu btn1Menu" id="breedList" aria-labelledby="dropdownMenuButton1">
+          <!-- API Call -->
+          <li class="dropdown-item"><a href="#" data="">API Call</a></li>
+        </ul>
+      </div>
+      <!-- Gender Dropdown -->
+      <div class="gender">
+        <button class="btn2 dropdown-toggle" type="button" id="btn2" data-bs-toggle="dropdown" aria-expanded="true">
+          Gender
+        </button>
+        <ul class="dropdown-menu btn2Menu" id="genderList" aria-labelledby="dropdownMenuButton1">
+          <li class="dropdown-item"><a href="#">Male</a></li>
+          <li class="dropdown-item"><a href="#">Female</a></li>
+          <li class="dropdown-item"><a href="#">Any</a></li>
+        </ul>
+      </div>
       <!-- Submit Button -->
       <div class="submit" id="submit">
         <!-- Will need JS function on click -->
