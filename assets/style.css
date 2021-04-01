@@ -18,11 +18,14 @@ h1,
   padding-left: 337px !important;
   padding-right: 337px !important;
 }
-.parentName,
-.zipCode,
-#btn1,
-#btn2,
-.submit {
+
+/* Form inputs responsive as centered inside of the "PawMe Profile" container */
+#profile .parentName,
+#profile .zipCode,
+#profile .btn2,
+#profile .btn1,
+#profile .submit {
+  /* margin: auto; */
   min-width: 100%;
   max-width: 100%;
   align-content: center;

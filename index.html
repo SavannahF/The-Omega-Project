@@ -40,12 +40,15 @@
     </nav>
     <!--  -->
 
-    <form class="flex-container-fluid profile" id="profile">
+    <!-- Trying to use Bootstrap to make input fields take up center second third of columns, centered in PawMe -->
+    <form class="container-fluid profile" id="profile">
       <h1 class="profile-title" id="profile-title">PawMe Profile</h1>
       <!-- DIV holds the offset fields -->
-      <div class="row d-grid gap-3">
+      <div class="row d-grid gap-3" id="row">
+        <!-- <div class="empty1 col-4"></div> -->
+        <!-- <div class="input col-4"> -->
         <!-- Parent Name Input -->
-        <div class="input-group flex-nowrap" id="parentName">
+        <div class="input-group flex-nowrap parentName" id="parentName">
           <input
             type="text"
             id="userName"
@@ -111,16 +114,13 @@
           <!-- Will need JS function on click -->
           <button class="submitBtn" id="submitBtn">Submit</button>
         </div>
+        <!-- </div> -->
+        <!-- <div class="empty2 col-4"></div> -->
       </div>
     </form>
 
     <!-- Spirit Dog Picture: Which Dog Are You? -->
-    <button
-      class="dogButton"
-      type="button"
-      id="btn3"
-    >
-      Which Dog Are You?</button
+    <button class="dogButton" type="button" id="btn3">Which Dog Are You?</button
     ><br />
     <br />
     <img id="dogImage" src="https://dog.ceo/img/dog-api-logo.svg" />
