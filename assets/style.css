@@ -1,8 +1,14 @@
+
 .home {
   justify-content: right;
   align-self: flex-end;
 }
 
+form{
+  background-color: rgb(247, 243, 243);
+
+
+}
 .profile {
   margin: auto;
   margin-top: 200px;
@@ -14,10 +20,10 @@ h1,
 .dropdown-item {
   text-align: center;
 }
-.row {
+/* .row {
   padding-left: 337px !important;
   padding-right: 337px !important;
-}
+} */
 .parentName,
 .zipCode,
 #btn1,
@@ -25,12 +31,36 @@ h1,
 .submit {
   margin: auto;
   padding: 10px;
-
   min-width: 100%;
   max-width: 100%;
   align-content: center;
   text-align: center;
 }
+
+#randomBtn {
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  min-width: 100%;
+  max-width: 100%;
+  
+}
+#btn3{
+  width: auto;
+  border: 3px solid black;
+  background-color: skyblue;
+}
+#dogImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .dropdown-menu {
   border: 1px solid black;
   width: 368px;
@@ -42,8 +72,18 @@ h1,
 }
 
 .card {
-  padding-top: 15px;
-  padding-bottom: 15px;
+
+  margin: 25px;
+}
+#results-container {
+  border: 3px solid rgb(238, 234, 234);
+  display: flex;
+  flex-wrap: wrap;
+  background-color: darkgray;
+}
+
+.hidden {
+  display: none;
 }
 
 /* @media only screen (max-width: 600px) {
