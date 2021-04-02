@@ -1,56 +1,82 @@
-
-.home {
-  justify-content: right;
-  align-self: flex-end;
+/* nav bar styling */
+#pawMe{
+  font-family:'Roboto', sans-serif; 
+  color: #ff595c; 
+  font-size:15pt
+}
+#home-btn{
+  font-family:'Roboto', sans-serif;
+  font-weight: bold; 
+  color: #449488; 
+  font-size:15pt;
 }
 
-form{
-  background-color: rgb(247, 243, 243);
-
-
-}
+/* pawme profile styling */
 .profile {
   margin: auto;
-  margin-top: 200px;
-  width: 50%;
-  border: 3px solid gray;
-  padding: 10px;
+  margin-top: 95px;
+  width: 30%;
+  box-shadow: 5px 5px 10px rgb(192, 189, 189);
+  padding: 20px;
+  background-color:rgb(235, 235, 235);
+  border-radius: 12px;
+
 }
-h1,
-.dropdown-item {
+
+/* header styling */
+h1 {
+  font-family:'Roboto', sans-serif; 
+  color: #ff595c;
   text-align: center;
 }
-/* .row {
-  padding-left: 337px !important;
-  padding-right: 337px !important;
-} */
+ /* input form styling */
 .parentName,
 .zipCode,
-#btn1,
-#btn2,
 .submit {
   margin: auto;
   padding: 10px;
-  min-width: 100%;
-  max-width: 100%;
   align-content: center;
   text-align: center;
+  font-family:'Roboto', sans-serif;
+  border-radius: 12px;
+
 }
 
+/* which dog are you bnt styling */
 #randomBtn {
   align-content: center;
   text-align: center;
   margin: auto;
   padding: 10px;
   min-width: 100%;
-  max-width: 100%;
-  
+  max-width: 100%; 
 }
 #btn3{
   width: auto;
-  border: 3px solid black;
-  background-color: skyblue;
+  border: none;
+  background-color:  #449488;
+  font-family:'Roboto', sans-serif;
+  font-size: 12pt;
+  color: #e9eef1;
+  box-shadow: 5px  5px 10px rgb(126, 123, 123);
+  padding: 8px 15px;
+  border-radius: 12px;
 }
+
+/* form btn styling */
+.submitBtn {
+  width: auto;
+  border:none;
+  background-color:  #449488;
+  font-family:'Roboto', sans-serif;
+  font-size: 12pt;
+  color: #e9eef1;
+  box-shadow: 5px  5px 10px rgb(126, 123, 123);
+  padding: 8px 15px;
+  border-radius: 12px;
+}
+
+/* random dog img */
 #dogImage {
   display: block;
   max-width: 100%;
@@ -61,18 +87,7 @@ h1,
 }
 
 
-.dropdown-menu {
-  border: 1px solid black;
-  width: 368px;
-}
-.submitBtn {
-  width: auto;
-  border: 3px solid black;
-  background-color: skyblue;
-}
-
 .card {
-
   margin: 25px;
 }
 #results-container {
