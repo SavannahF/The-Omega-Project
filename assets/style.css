@@ -1,9 +1,10 @@
-/* nav bar styling */
+/* nav bar text styling */
 #pawMe{
   font-family:'Roboto', sans-serif; 
   color: #ff595c; 
   font-size:15pt
 }
+/* nav bar Home styling */
 #home-btn{
   font-family:'Roboto', sans-serif;
   font-weight: bold; 
@@ -29,6 +30,7 @@ h1 {
   color: #ff595c;
   text-align: center;
 }
+
  /* input form styling */
 .parentName,
 .zipCode,
@@ -62,6 +64,12 @@ h1 {
   padding: 8px 15px;
   border-radius: 12px;
 }
+/* PawMe instructions */
+p {
+  font-family:'Roboto', sans-serif;
+  color:rgb(119, 117, 117);
+  font-size: 12pt;
+}
 
 /* form btn styling */
 .submitBtn {
@@ -85,43 +93,32 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
-
-
+/* results title styling */
+h2,
+h3 {
+  font-family:'Roboto', sans-serif;
+  color:#737877;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom:3% ;
+}
+/* results crads styling */
 .card {
   margin: 25px;
+  box-shadow: 5px  5px 10px rgb(77, 75, 75);
+  font-family:'Roboto', sans-serif;
 }
+
 #results-container {
   border: 3px solid rgb(238, 234, 234);
   display: flex;
   flex-wrap: wrap;
   background-color: darkgray;
+  padding-left: 10%;
+  align-content: center;
 }
 
 .hidden {
   display: none;
 }
 
-/* @media only screen (max-width: 600px) {
-    .profile {
-        display: flex;
-        margin: auto;
-        margin-top: 100px;
-        width: 25%;
-        border: 3px solid black;
-        padding: 5px;
-    }
-    h1 , .dropdown-item{
-        align-items: center;
-        text-align: center;
-    }
-    .row {
-        padding-left: 337px !important;
-        padding-right: 337px !important;
-    }
-    .parentName , .zipCode , #btn1 , #btn2 , .submit {
-        min-width: 100%;
-        max-width: 100%;
-        align-content: center;
-        text-align: center;
-    }
-} */

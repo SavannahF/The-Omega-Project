@@ -48,7 +48,6 @@ submitBtn.addEventListener("click", function (e) {
   //user name input
   var userName = userNameEl.value;
   var zipCode = zipCodeEl.value;
-  // var userName = document.querySelector("#parentName").innerText;
   if (userName) {
     console.log(userName);
     console.log(zipCode);
@@ -73,7 +72,6 @@ function getApi() {
       status +
       "&postcode" +
       zipCode +
-      "&gender=male" +
       "&limit=100",
     {
       method: "GET",
@@ -86,30 +84,25 @@ function getApi() {
   )
     .then((response) => response.json())
     .then((data) => {
+      //filters the results with dogs that have pictures
       var filteredPets = data.animals.filter(
         (animal) => animal.primary_photo_cropped !== null
       );
-
       console.log(filteredPets);
-      // this is trying to filter the results with dogs that have pictures
-      // console.log(
-      //   "pets",
-      //   data.animals.filter((animal) => animal.primary_photo_cropped !== null)
-      // );
       console.log("pets", data);
       // console.log("pets", data.animals[2].name);
       // console.log("img", data.animals[0].photos[0]);
       // console.log("img", data.animals[0].photos[0].small);
 
-      //dog name element
+      //this for loop displays the results 
       for (let i = 0; i < 100; i++) {
         var dogCard = document.createElement("div");
         dogCard.classList.add("card");
-        dogCard.setAttribute("style", "width: 18rem ");
+        dogCard.setAttribute("style", "width: 20rem ");
         dogCard.innerHTML = `
         <img class="card-img-top" alt="image coming soon" src="${filteredPets[i].primary_photo_cropped.small}" /> 
       <div class="card-body">
-        <h4 id="dogName">Name: ${filteredPets[i].name}</h4>
+        <h3 id="dogName"> ${filteredPets[i].name}</h3>
         <p class="breed">Breed: ${filteredPets[i].breeds.primary}</p>
         <p class="gender">Gender: ${filteredPets[i].gender}</p>
         <p class="age">Age: ${filteredPets[i].age}</p>
@@ -146,7 +139,6 @@ submitDogBtn.addEventListener("click", function () {
 
 var homeBtn = document.getElementById("home-btn");
 homeBtn.addEventListener("click", function () {
-  // resultsDiv.classList.add("hidden");
   formDiv.style.display = "block";
   document.getElementById("match-results").style.display = "none";
   console.log(document.getElementById("match-results"));
