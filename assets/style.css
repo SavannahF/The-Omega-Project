@@ -1,15 +1,15 @@
 /* nav bar text styling */
-#pawMe{
-  font-family:'Roboto', sans-serif; 
-  color: #ff595c; 
-  font-size:15pt
+#pawMe {
+  font-family: "Roboto", sans-serif;
+  color: #ff595c;
+  font-size: 15pt;
 }
 /* nav bar Home styling */
-#home-btn{
-  font-family:'Roboto', sans-serif;
-  font-weight: bold; 
-  color: #449488; 
-  font-size:15pt;
+#home-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #449488;
+  font-size: 15pt;
 }
 
 /* pawme profile styling */
@@ -19,19 +19,18 @@
   width: 30%;
   box-shadow: 5px 5px 10px rgb(192, 189, 189);
   padding: 20px;
-  background-color:rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
   border-radius: 12px;
-
 }
 
 /* header styling */
 h1 {
-  font-family:'Roboto', sans-serif; 
+  font-family: "Roboto", sans-serif;
   color: #ff595c;
   text-align: center;
 }
 
- /* input form styling */
+/* input form styling */
 .parentName,
 .zipCode,
 .submit {
@@ -39,9 +38,8 @@ h1 {
   padding: 10px;
   align-content: center;
   text-align: center;
-  font-family:'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   border-radius: 12px;
-
 }
 
 /* which dog are you bnt styling */
@@ -51,35 +49,35 @@ h1 {
   margin: auto;
   padding: 10px;
   min-width: 100%;
-  max-width: 100%; 
+  max-width: 100%;
 }
-#btn3{
+#btn3 {
   width: auto;
   border: none;
-  background-color:  #449488;
-  font-family:'Roboto', sans-serif;
+  background-color: #449488;
+  font-family: "Roboto", sans-serif;
   font-size: 12pt;
   color: #e9eef1;
-  box-shadow: 5px  5px 10px rgb(126, 123, 123);
+  box-shadow: 5px 5px 10px rgb(126, 123, 123);
   padding: 8px 15px;
   border-radius: 12px;
 }
 /* PawMe instructions */
 p {
-  font-family:'Roboto', sans-serif;
-  color:rgb(119, 117, 117);
+  font-family: "Roboto", sans-serif;
+  color: rgb(119, 117, 117);
   font-size: 12pt;
 }
 
 /* form btn styling */
 .submitBtn {
   width: auto;
-  border:none;
-  background-color:  #449488;
-  font-family:'Roboto', sans-serif;
+  border: none;
+  background-color: #449488;
+  font-family: "Roboto", sans-serif;
   font-size: 12pt;
   color: #e9eef1;
-  box-shadow: 5px  5px 10px rgb(126, 123, 123);
+  box-shadow: 5px 5px 10px rgb(126, 123, 123);
   padding: 8px 15px;
   border-radius: 12px;
 }
@@ -96,17 +94,17 @@ p {
 /* results title styling */
 h2,
 h3 {
-  font-family:'Roboto', sans-serif;
-  color:#737877;
+  font-family: "Roboto", sans-serif;
+  color: #737877;
   text-align: center;
   padding-top: 3%;
-  padding-bottom:3% ;
+  padding-bottom: 3%;
 }
 /* results crads styling */
 .card {
   margin: 25px;
-  box-shadow: 5px  5px 10px rgb(77, 75, 75);
-  font-family:'Roboto', sans-serif;
+  box-shadow: 5px 5px 10px rgb(77, 75, 75);
+  font-family: "Roboto", sans-serif;
 }
 
 #results-container {
@@ -121,4 +119,3 @@ h3 {
 .hidden {
   display: none;
 }
-

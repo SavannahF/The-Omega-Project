@@ -49,9 +49,11 @@
       <h1 class="profile-title" id="profile-title">PawMe Profile</h1>
       <p class="instructions"> We will love to help you find your perfect furry match,<br> just enter the information below and click Submit.</p>
       <!-- DIV holds the offset fields -->
-      <div class="row d-grid gap-3">
+      <div class="row d-grid gap-3" id="row">
+        <!-- <div class="empty1 col-4"></div> -->
+        <!-- <div class="input col-4"> -->
         <!-- Parent Name Input -->
-        <div class="input-group flex-nowrap" id="parentName">
+        <div class="input-group flex-nowrap parentName" id="parentName">
           <input
             type="text"
             id="userName"
@@ -77,6 +79,8 @@
           <!-- Will need JS function on click -->
           <button class="submitBtn" id="submitBtn">Submit</button>
         </div>
+        <!-- </div> -->
+        <!-- <div class="empty2 col-4"></div> -->
       </div>
 
       <div class="randomBtn" id="randomBtn">
@@ -92,6 +96,13 @@
     </form>
 
     <!-- Spirit Dog Picture: Which Dog Are You? -->
+<<<<<<< HEAD
+    <button class="dogButton" type="button" id="btn3">Which Dog Are You?</button
+    ><br />
+    <br />
+    <img id="dogImage" src="https://dog.ceo/img/dog-api-logo.svg" />
+=======
+>>>>>>> e2d9f56f3079d59b28748496927a0e46e6e84208
 
     <!-- Results container  -->
     <div id="match-results" style="display: none">
