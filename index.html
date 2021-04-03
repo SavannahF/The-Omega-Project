@@ -10,12 +10,17 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/style.css" />
     <title>The Omega Pet Project</title>
   </head>
 
   <body>
-    <nav class="col-12 navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="col-12 navbar navbar-expand-lg sticky-top navbar-light bg-light">
       <div class="container-fluid header">
         <a class="col-6 navbar-brand pawMe" id="pawMe" href="#">PawMe</a>
         <button
@@ -32,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="col-6 nav-link home" id="home-btn" href="#profile">Home</a>
+              <a class="nav-link home" id="home-btn">Home</a>
             </li>
           </ul>
         </div>
@@ -42,6 +47,7 @@
     <!-- Form div -->
     <form class="flex-container-fluid profile" id="profile">
       <h1 class="profile-title" id="profile-title">PawMe Profile</h1>
+      <p class="instructions"> We will love to help you find your perfect furry match,<br> just enter the information below and click Submit.</p>
       <!-- DIV holds the offset fields -->
       <div class="row d-grid gap-3">
         <!-- Parent Name Input -->
@@ -65,61 +71,24 @@
             aria-describedby="addon-wrapping"
           />
         </div>
-        <!-- Breed Dropdown
-        <div class="breed">
-          <button
-            class="btn1 dropdown-toggle"
-            type="button"
-            id="btn1"
-            data-bs-toggle="dropdown"
-            aria-expanded="true"
-          >
-            Breed of Dog
-          </button>
-            class="dropdown-menu btn1Menu"
-            id="breedList"
-            aria-labelledby="dropdownMenuButton1"
-          > -->
-            <!-- API Call -->
-            <!-- <li class="dropdown-item"><a href="#" data="">API Call</a></li>
-          </ul>
-        </div> -->
-        <!-- Gender Dropdown -->
-        <!-- <div class="gender">
-          <button
-            class="btn2 dropdown-toggle"
-            type="button"
-            id="btn2"
-            data-bs-toggle="dropdown"
-            aria-expanded="true"
-          >
-            Gender
-          </button>
-          <ul
-            class="dropdown-menu btn2Menu"
-            id="genderList"
-            aria-labelledby="dropdownMenuButton1"
-          >
-            <li class="dropdown-item"><a href="#">Male</a></li>
-            <li class="dropdown-item"><a href="#">Female</a></li>
-          </ul>
-        </div> -->
-
+        
         <!-- Submit Button -->
         <div class="submit" id="submit">
           <!-- Will need JS function on click -->
           <button class="submitBtn" id="submitBtn">Submit</button>
         </div>
       </div>
-    
-    
-      <div class = "randomBtn"  id="randomBtn">    
+
+      <div class="randomBtn" id="randomBtn">
+        <p class="instructions">If you want to know how you would look in dog form, just click the PawMe button below. </p>
         <button class="dogButton" type="button" id="btn3">
-          Which Dog Are You?</button>
+          PawMe
+          <!-- Which Dog Are You? -->
+        </button>
       </div>
-        <br />
-        <br />
-        <img id="dogImage" src="https://dog.ceo/img/dog-api-logo.svg" />
+      <br />
+      <br />
+      <img id="dogImage" src="https://dog.ceo/img/dog-api-logo.svg" />
     </form>
 
     <!-- Spirit Dog Picture: Which Dog Are You? -->
@@ -127,11 +96,11 @@
     <!-- Results container  -->
     <div id="match-results" style="display: none">
       <!-- <div class="col-12 col-md-8"> -->
-        <h2>
-          PawMe Matches
-          <span id="user-matches"></span>
-        </h2>
-        <div id="results-container">
+      <h2>
+        PawMe Matches
+        <span id="user-matches"></span>
+      </h2>
+      <div id="results-container">
         <!-- <div class="card" style="width: 18rem">
           <img class="card-img-top" alt="image coming soon" />
           <div class="card-body">
