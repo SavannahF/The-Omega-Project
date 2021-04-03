@@ -12,12 +12,9 @@ https://SavannahF.github.io/The_Omega_Project/
 
 Screen Shots can be found below:
 
-<!-- INSERT FINAL SCREENSHOTS HERE
-
-![IMAGE_01](./assets/FILE_NAME1.ext)
-![IMAGE_02](./assets/FILE_NAME2.ext)
-![IMAGE_03](./assets/FILE_NAME3.ext)
-![IMAGE_04](./assets/FILE_NAME4.ext) -->
+![IMAGE_01](./assets/HOME.png)
+![IMAGE_02](./assets/PAWME.png)
+![IMAGE_03](./assets/RESULTS.png)
 
 ## Installation
 
@@ -31,7 +28,11 @@ Visit the github-hosted webpage for the user experience!!
 
 ## Instructions
 
-<!-- Insert Instructions Here -->
+1. The user types their name into the "Parent Name" field.
+2. The user types their Zip Code into the "ZipCode" field.
+3. Then the user may click on the "Submit" button, which populates their PawMe results based on zip code.
+4. _optional_ the user does not have to input a name or zip code in order to click on the "PawMe" button on the homepage--this button returns a random dog image on the Home page, for pet inspiration!
+5. To return to the Home page after PawMe results have been generated, the user may click on the "Home" button at the top of the webpage.
 
 ## Websites
 
