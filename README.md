@@ -8,7 +8,7 @@ This app uses the PetFinder API, Dog Images API, and local storage for the User 
 
 <!-- Published URL -->
 
-https://SavannahF.github.io/The_Omega_Project/
+https://savannahf.github.io/The_Omega_Project/
 
 Screen Shots can be found below:
 
