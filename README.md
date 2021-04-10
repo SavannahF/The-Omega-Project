@@ -37,7 +37,7 @@ Visit the github-hosted webpage for the user experience!!
 ## Websites
 
 - Github: https://github.com/SavannahF/The_Omega_Project/
-- Deployed: https://SavannahF.github.io/The_Omega_Project/
+- Deployed: https://savannahf.github.io/The_Omega_Project/
 
 ## Collaborators
 
